@@ -35,7 +35,8 @@ RUN apt-get install -y \
     libgsl-dev \
     pkg-config
 
-RUN apt-get install -y llvm-10
+#RUN apt-get install -y llvm-10
+RUN apt-get install -y llvm
 
 # Install system library for rgeos
 RUN apt-get install -y libgeos-dev
